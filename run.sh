@@ -12,5 +12,6 @@ cat $(find packages -name "*.package") > deb/tmpPackages
 
 # generate the Release file
 cd deb/dists/wcbing && \
+gzip -k main/binary-*/Packages && \
 apt-ftparchive release -c apt-ftparchive.conf . > Release && \
 gpg --yes --clearsign -o InRelease Release

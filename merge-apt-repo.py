@@ -166,14 +166,13 @@ if __name__ == "__main__":
         executor.map(process_repo, repo_list.values())
 
     # 分别输出到不同文件
+    packages.pop("i386")  # i386 不输出
     for arch in ["amd64", "arm64", "all"]:
         os.makedirs(f"deb/dists/wcbing/main/binary-{arch}/", exist_ok=True)
         with open(f"deb/dists/wcbing/main/binary-{arch}/Packages", "+wb") as f:
             for i in packages[arch].values():
                 f.write(i["package"])
+                i.pop("package")  # packages.json 要舍弃该部分
 
     # 输出 packages.json，用于展示仓库内容
-    for arch in arch_List:
-        for i in packages[arch].values():
-            i.pop("package")
     json.dump(packages, open("deb/list/packages.json", "w"), indent=4)
