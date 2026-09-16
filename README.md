@@ -26,31 +26,31 @@
 
 ### 部分自行收集软件
 
-| 软件名 | 包名 | amd64 | arm64 |
-| ----- | ---- | ----- | ----- |
-| [QQ](https://im.qq.com/linuxqq/) | linuxqq | ✅ | ✅ |
-| [QQ音乐](https://y.qq.com/download/download.html) | qqmusic | ✅ | |
-| [腾讯会议](https://meeting.tencent.com/download/) | wemeet | ✅ | ✅ |
-| [腾讯文档](https://docs.qq.com/home/download) | tdappdesktop | ✅ | ✅ |
-| [WPS Office](https://linux.wps.cn/) | wps-office | ✅ | |
-| [百度网盘](https://pan.baidu.com/download) | baidunetdisk | ✅ | |
-| [钉钉](https://www.dingtalk.com/download/) | com.alibabainc.dingtalk | ✅ | ✅ |
-| [飞书](https://www.feishu.cn/download) | bytedance-feishu-stable | ✅ | ✅ |
-| [Xmind](https://xmind.cn/download/) | xmind-vana | ✅ | |
-| [uTools](https://u.tools/download/) | utools | ✅ | |
-| [360安全浏览器](https://browser.360.net/gc/) | browser360-cn-stable | ✅ | |
-| [滴答清单](https://dida365.com/download) | dida | ✅ | ✅ |
-| [向日葵](https://sunlogin.oray.com/download/linux) | awesun | ✅ | |
-| [ToDesk](https://www.todesk.com/linux.html) | todesk | ✅ | ✅ |
-| [微信](https://linux.weixin.qq.com/) | wechat | ✅ | ✅ |
-| [欧路词典](https://www.eudic.net/v4/en/app/download) | eudic | ✅ | |
-| [有道云笔记](https://note.youdao.com/note-download/) | ynote-desktop | ✅ | |
-| [MuseSounds Manager](https://musescore.org/download) | muse-sounds-manager | ✅ | |
-| [移动云盘](https://yun.139.com) | com.cmic.mcloud | ✅ | |
-| [ConvertWithMoss](https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss.html) | convertwithmoss | ✅ | |
-| [奥维互动地图](https://www.ovital.com/download/) | ovital-map | ✅ | ✅ |
-| [Choice金融终端](https://choice.eastmoney.com/downloads) | com.eastmoney.choice | ✅ | ✅ |
-| [WorkBuddy](https://www.codebuddy.cn/work/) | workbuddy | ✅ | ✅ |
+| 包名 | 软件名 | amd64 | arm64 |
+| ---- | ----- | ----- | ----- |
+| awesun | [向日葵](https://sunlogin.oray.com/download/linux) | ✅ | |
+| baidunetdisk | [百度网盘](https://pan.baidu.com/download) | ✅ | |
+| browser360-cn-stable | [360安全浏览器](https://browser.360.net/gc/) | ✅ | |
+| bytedance-feishu-stable | [飞书](https://www.feishu.cn/download) | ✅ | ✅ |
+| com.alibabainc.dingtalk | [钉钉](https://www.dingtalk.com/download/) | ✅ | ✅ |
+| com.cmic.mcloud | [移动云盘](https://yun.139.com) | ✅ | |
+| com.eastmoney.choice | [Choice金融终端](https://choice.eastmoney.com/downloads) | ✅ | ✅ |
+| convertwithmoss | [ConvertWithMoss](https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss.html) | ✅ | |
+| dida | [滴答清单](https://dida365.com/download) | ✅ | ✅ |
+| eudic | [欧路词典](https://www.eudic.net/v4/en/app/download) | ✅ | |
+| linuxqq | [QQ](https://im.qq.com/linuxqq/) | ✅ | ✅ |
+| muse-sounds-manager | [MuseSounds Manager](https://musescore.org/download) | ✅ | |
+| ovital-map | [奥维互动地图](https://www.ovital.com/download/) | ✅ | ✅ |
+| qqmusic | [QQ音乐](https://y.qq.com/download/download.html) | ✅ | |
+| tdappdesktop | [腾讯文档](https://docs.qq.com/home/download) | ✅ | ✅ |
+| todesk | [ToDesk](https://www.todesk.com/linux.html) | ✅ | ✅ |
+| utools | [uTools](https://u.tools/download/) | ✅ | |
+| wechat | [微信](https://linux.weixin.qq.com/) | ✅ | ✅ |
+| wemeet | [腾讯会议](https://meeting.tencent.com/download/) | ✅ | ✅ |
+| workbuddy | [WorkBuddy](https://www.codebuddy.cn/work/) | ✅ | ✅ |
+| wps-office | [WPS Office](https://linux.wps.cn/) | ✅ | |
+| xmind-vana | [Xmind](https://xmind.cn/download/) | ✅ | |
+| ynote-desktop | [有道云笔记](https://note.youdao.com/note-download/) | ✅ | |
 
 
 ### Git Releses
@@ -63,33 +63,33 @@
 
 > 含部分官方承认的第三方仓库
 
-| 软件仓库 | 包名 | amd64 | arm64 |
-| ------ | ---- | ----- | ----- |
-| [Mozilla Firefox](https://support.mozilla.org/zh-CN/kb/install-firefox-linux) | firefox<br />firefox_beta<br />firefox_devedition<br />firefox_nightly<br />firefox_esr<br />mozillavpn | ✅ | ✅ |
-| Google Chrome | google-chrome-stable<br />google-chrome-beta<br />google-chrome-unstable | ✅ | ✅ |
-| Google Earth | google-earth-pro-stable<br />google-earth-ec-stable | ✅ | |
-| Chrome Remote Desktop | chrome-remote-desktop | ✅ | |
-| Microsoft Edge | microsoft-edge-stable<br />microsoft-edge-beta<br />microsoft-edge-dev | ✅ | |
-| Opera | opera-stable<br />opera-beta<br />opera-developer | ✅ | |
-| Visual Studio Code | code<br />code-insiders<br />code-exploration | ✅ | ✅ |
-| termius | termius-app<br />termius-beta | ✅ | |
-| [Sublime Text<br />Sublime Merge](https://www.sublimetext.com/docs/linux_repositories.html) | sublime-text<br />sublime-merge | ✅ | ✅ |
-| [Steam](https://repo.steampowered.com/steam/) | steam-launcher<br />steam-libs-amd64 | ✅ | |
-| [Tailscale](https://pkgs.tailscale.com/stable/) | tailscale<br />tailscale-nginx-auth | ✅ | ✅ |
-| [Typora](https://typora.io/#linux) | typora | ✅ | ✅ |
-| [Zotero](https://zotero.retorque.re/file/apt-package-archive/index.html) | zotero<br />zotero-beta<br />zotero6 | ✅ | |
-| [Github CLI](https://cli.github.com/) | gh | ✅ | ✅ |
-| [Gitea](https://gitlab.com/packaging/gitea)（[镜像](https://mirrors.ustc.edu.cn/help/packaging-gitea.html)） | gitea | ✅ | ✅ |
-| [AnyDesk](https://deb.anydesk.com/howto.html) | anydesk | ✅ | ✅ |
-| [Spotify](https://www.spotify.com/sg-zh/download/linux/) | spotify-client | ✅ | |
-| [Free Download Manager](https://www.freedownloadmanager.org/zh/download-fdm-for-linux.htm) | freedownloadmanager | ✅ | |
-| [WezTerm](https://wezterm.org/install/linux.html#using-the-apt-repo) | wezterm<br />wezterm-nightly | ✅ | ✅ |
-| [Remote Desktop Manager](https://docs.devolutions.net/rdm/installation/client/?tab=linux) | remotedesktopmanager | ✅ | ✅ |
-| [Discord](https://github.com/Javinator9889/Discord-PPA) 第三方仓库| discord | ✅ | |
-| [Lutris](https://lutris.net/downloads) | lutris | ✅ | ✅ |
-| [Windows 11 Clipboard History For Linux](https://github.com/gustavosett/Windows-11-Clipboard-History-For-Linux) | win11-clipboard-history | ✅ | |
-| [Antigravity](https://antigravity.google/) | antigravity | ✅ | ✅ |
-| [ChatGPT](https://chatgpt.com/download/) | chatgpt | ✅ | ✅ |
+| 包名 | 软件仓库 | amd64 | arm64 |
+| ---- | ------ | ----- | ----- |
+| antigravity | [Antigravity](https://antigravity.google/) | ✅ | ✅ |
+| anydesk | [AnyDesk](https://deb.anydesk.com/howto.html) | ✅ | ✅ |
+| chatgpt | [ChatGPT](https://chatgpt.com/download/) | ✅ | ✅ |
+| chrome-remote-desktop | Chrome Remote Desktop | ✅ | |
+| code<br />code-insiders<br />code-exploration | [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux) | ✅ | ✅ |
+| discord | [Discord](https://github.com/Javinator9889/Discord-PPA) 第三方仓库 | ✅ | |
+| firefox<br />firefox_beta<br />firefox_devedition<br />firefox_nightly<br />firefox_esr<br />mozillavpn | [Mozilla Firefox](https://support.mozilla.org/zh-CN/kb/install-firefox-linux) | ✅ | ✅ |
+| freedownloadmanager | [Free Download Manager](https://www.freedownloadmanager.org/zh/download-fdm-for-linux.htm) | ✅ | |
+| gh | [Github CLI](https://cli.github.com/) | ✅ | ✅ |
+| gitea | [Gitea](https://gitlab.com/packaging/gitea)（[镜像](https://mirrors.ustc.edu.cn/help/packaging-gitea.html)） | ✅ | ✅ |
+| google-chrome-stable<br />google-chrome-beta<br />google-chrome-unstable | Google Chrome | ✅ | ✅ |
+| google-earth-pro-stable<br />google-earth-ec-stable | Google Earth | ✅ | |
+| lutris | [Lutris](https://lutris.net/downloads) | ✅ | ✅ |
+| microsoft-edge-stable<br />microsoft-edge-beta<br />microsoft-edge-dev | Microsoft Edge | ✅ | |
+| opera-stable<br />opera-beta<br />opera-developer | [Opera](https://deb.opera.com/manual.html) | ✅ | |
+| remotedesktopmanager | [Remote Desktop Manager](https://docs.devolutions.net/rdm/installation/client/?tab=linux) | ✅ | ✅ |
+| spotify-client | [Spotify](https://www.spotify.com/sg-zh/download/linux/) | ✅ | |
+| steam-launcher<br />steam-libs-amd64 | [Steam](https://repo.steampowered.com/steam/) | ✅ | |
+| sublime-text<br />sublime-merge | [Sublime Text<br />Sublime Merge](https://www.sublimetext.com/docs/linux_repositories.html) | ✅ | ✅ |
+| tailscale<br />tailscale-nginx-auth | [Tailscale](https://pkgs.tailscale.com/stable/) | ✅ | ✅ |
+| termius-app<br />termius-beta | termius | ✅ | |
+| typora | [Typora](https://typora.io/#linux) | ✅ | ✅ |
+| wezterm<br />wezterm-nightly | [WezTerm](https://wezterm.org/install/linux.html#using-the-apt-repo) | ✅ | ✅ |
+| win11-clipboard-history | [Windows 11 Clipboard History](https://github.com/gustavosett/Windows-11-Clipboard-History-For-Linux) | ✅ | |
+| zotero<br />zotero-beta<br />zotero6 | [Zotero](https://zotero.retorque.re/file/apt-package-archive/index.html) | ✅ | |
 
 
 ## 自建仓库

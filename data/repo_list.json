@@ -1,58 +1,35 @@
 {
-    "git-releases": {
+    "0": {
         "repo": "",
         "path": {
             "mix": "https://github.com/wcbing-apt-repo/releases-to-repo/releases/latest/download/Packages"
         }
     },
-    "google-chrome": {
-        "repo": "https://dl.google.com/linux/chrome/deb/",
+    "antigravity": {
+        "repo": "https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev/",
         "path": {
-            "amd64": "dists/stable/main/binary-amd64/Packages.gz",
-            "arm64": "dists/stable/main/binary-arm64/Packages.gz"
+            "amd64": "dists/antigravity-debian/main/binary-amd64/Packages",
+            "arm64": "dists/antigravity-debian/main/binary-arm64/Packages"
         }
     },
-    "google-earth": {
-        "repo": "https://dl.google.com/linux/earth/deb/",
+    "anydesk": {
+        "repo": "https://deb.anydesk.com/",
         "path": {
-            "amd64": "dists/stable/main/binary-amd64/Packages.gz"
+            "amd64": "dists/all/main/binary-amd64/Packages",
+            "arm64": "dists/all/main/binary-arm64/Packages"
+        }
+    },
+    "chatgpt": {
+        "repo": "https://persistent.oaistatic.com/codex-app-prod/linux/deb/",
+        "path": {
+            "amd64": "dists/stable/main/binary-amd64/Packages",
+            "arm64": "dists/stable/main/binary-amd64/Packages"
         }
     },
     "chrome-remote-desktop": {
         "repo": "https://dl.google.com/linux/chrome-remote-desktop/deb/",
         "path": {
             "amd64": "dists/stable/main/binary-amd64/Packages.gz"
-        }
-    },
-    "termius": {
-        "repo": "https://deb.termius.com/",
-        "path": {
-            "amd64": "dists/squeeze/main/binary-amd64/Packages.gz"
-        }
-    },
-    "steam": {
-        "repo": "https://repo.steampowered.com/steam/",
-        "path": {
-            "amd64": "dists/stable/steam/binary-amd64/Packages.gz"
-        }
-    },
-    "firefox": {
-        "repo": "https://packages.mozilla.org/apt/",
-        "path": {
-            "amd64": "dists/mozilla/main/binary-amd64/Packages",
-            "arm64": "dists/mozilla/main/binary-arm64/Packages"
-        }
-    },
-    "microsoft-edge": {
-        "repo": "https://packages.microsoft.com/repos/edge/",
-        "path": {
-            "amd64": "dists/stable/main/binary-amd64/Packages.gz"
-        }
-    },
-    "opera-stable": {
-        "repo": "https://deb.opera.com/opera-stable/",
-        "path": {
-            "amd64": "dists/stable/non-free/binary-amd64/Packages.gz"
         }
     },
     "code": {
@@ -62,29 +39,23 @@
             "arm64": "dists/stable/main/binary-arm64/Packages.gz"
         }
     },
-    "tailscale": {
-        "repo": "https://pkgs.tailscale.com/stable/debian/",
+    "discord": {
+        "repo": "https://ppa.javinator9889.com/",
         "path": {
-            "amd64": "dists/sid/main/binary-amd64/Packages.gz",
-            "arm64": "dists/sid/main/binary-arm64/Packages.gz"
+            "amd64": "dists/all/main/binary-amd64/Packages.gz"
         }
     },
-    "sublime": {
-        "repo": "https://download.sublimetext.com/",
+    "firefox": {
+        "repo": "https://packages.mozilla.org/apt/",
         "path": {
-            "mix": "apt/stable/Packages.gz"
+            "amd64": "dists/mozilla/main/binary-amd64/Packages",
+            "arm64": "dists/mozilla/main/binary-arm64/Packages"
         }
     },
-    "typora": {
-        "repo": "https://typoraio.cn/linux/",
+    "freedownloadmanager": {
+        "repo": "https://debrepo.freedownloadmanager.org/",
         "path": {
-            "mix": "Packages.gz"
-        }
-    },
-    "zotero": {
-        "repo": "https://zotero.retorque.re/file/apt-package-archive/",
-        "path": {
-            "amd64": "Packages"
+            "amd64": "dists/jammy/main/binary-amd64/Packages.gz"
         }
     },
     "gh": {
@@ -101,29 +72,35 @@
             "arm64": "dists/gitea/main/binary-arm64/Packages"
         }
     },
-    "anydesk": {
-        "repo": "https://deb.anydesk.com/",
+    "google-chrome": {
+        "repo": "https://dl.google.com/linux/chrome/deb/",
         "path": {
-            "amd64": "dists/all/main/binary-amd64/Packages",
-            "arm64": "dists/all/main/binary-arm64/Packages"
+            "amd64": "dists/stable/main/binary-amd64/Packages.gz",
+            "arm64": "dists/stable/main/binary-arm64/Packages.gz"
         }
     },
-    "spotify-client": {
-        "repo": "https://repository.spotify.com/",
+    "google-earth": {
+        "repo": "https://dl.google.com/linux/earth/deb/",
         "path": {
-            "amd64": "dists/stable/non-free/binary-amd64/Packages"
+            "amd64": "dists/stable/main/binary-amd64/Packages.gz"
         }
     },
-    "freedownloadmanager": {
-        "repo": "https://debrepo.freedownloadmanager.org/",
+    "lutris": {
+        "repo": "https://download.opensuse.org/repositories/home:/strycore/Debian_12/",
         "path": {
-            "amd64": "dists/jammy/main/binary-amd64/Packages.gz"
+            "all": "Packages.gz"
         }
     },
-    "wezterm": {
-        "repo": "https://apt.fury.io/wez/",
+    "microsoft-edge": {
+        "repo": "https://packages.microsoft.com/repos/edge/",
         "path": {
-            "mix": "Packages"
+            "amd64": "dists/stable/main/binary-amd64/Packages.gz"
+        }
+    },
+    "opera-stable": {
+        "repo": "https://deb.opera.com/opera-stable/",
+        "path": {
+            "amd64": "dists/stable/non-free/binary-amd64/Packages.gz"
         }
     },
     "remotedesktopmanager": {
@@ -133,16 +110,47 @@
             "arm64": "dists/trixie/main/binary-arm64/Packages.gz"
         }
     },
-    "discord": {
-        "repo": "https://ppa.javinator9889.com/",
+    "spotify-client": {
+        "repo": "https://repository.spotify.com/",
         "path": {
-            "amd64": "dists/all/main/binary-amd64/Packages.gz"
+            "amd64": "dists/stable/non-free/binary-amd64/Packages"
         }
     },
-    "lutris": {
-        "repo": "https://download.opensuse.org/repositories/home:/strycore/Debian_12/",
+    "steam": {
+        "repo": "https://repo.steampowered.com/steam/",
         "path": {
-            "all": "Packages.gz"
+            "amd64": "dists/stable/steam/binary-amd64/Packages.gz"
+        }
+    },
+    "sublime": {
+        "repo": "https://download.sublimetext.com/",
+        "path": {
+            "mix": "apt/stable/Packages.gz"
+        }
+    },
+    "tailscale": {
+        "repo": "https://pkgs.tailscale.com/stable/debian/",
+        "path": {
+            "amd64": "dists/sid/main/binary-amd64/Packages.gz",
+            "arm64": "dists/sid/main/binary-arm64/Packages.gz"
+        }
+    },
+    "termius": {
+        "repo": "https://deb.termius.com/",
+        "path": {
+            "amd64": "dists/squeeze/main/binary-amd64/Packages.gz"
+        }
+    },
+    "typora": {
+        "repo": "https://typoraio.cn/linux/",
+        "path": {
+            "mix": "Packages.gz"
+        }
+    },
+    "wezterm": {
+        "repo": "https://apt.fury.io/wez/",
+        "path": {
+            "mix": "Packages"
         }
     },
     "win11-clipboard-history": {
@@ -151,18 +159,10 @@
             "amd64": "dists/sid/main/binary-amd64/Packages.gz"
         }
     },
-    "antigravity": {
-        "repo": "https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev/",
+    "zotero": {
+        "repo": "https://zotero.retorque.re/file/apt-package-archive/",
         "path": {
-            "amd64": "dists/antigravity-debian/main/binary-amd64/Packages",
-            "arm64": "dists/antigravity-debian/main/binary-amd64/Packages"
-        }
-    },
-    "chatgpt": {
-        "repo": "https://persistent.oaistatic.com/codex-app-prod/linux/deb/",
-        "path": {
-            "amd64": "dists/stable/main/binary-amd64/Packages",
-            "arm64": "dists/stable/main/binary-amd64/Packages"
+            "amd64": "Packages"
         }
     }
 }
