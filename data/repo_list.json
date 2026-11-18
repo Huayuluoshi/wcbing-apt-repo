@@ -32,6 +32,13 @@
             "amd64": "dists/stable/main/binary-amd64/Packages.gz"
         }
     },
+    "claude-desktop": {
+        "repo": "https://downloads.claude.ai/claude-desktop/apt/stable/",
+        "path": {
+            "amd64": "dists/stable/main/binary-amd64/Packages.gz",
+            "arm64": "dists/stable/main/binary-arm64/Packages.gz"
+        }
+    },
     "code": {
         "repo": "https://packages.microsoft.com/repos/code/",
         "path": {

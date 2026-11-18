@@ -69,6 +69,7 @@
 | anydesk | [AnyDesk](https://deb.anydesk.com/howto.html) | ✅ | ✅ |
 | chatgpt | [ChatGPT](https://chatgpt.com/download/) | ✅ | ✅ |
 | chrome-remote-desktop | Chrome Remote Desktop | ✅ | |
+| claude-desktop | [Claude Desktop](https://code.claude.com/docs/en/desktop-linux) | ✅ | ✅ |
 | code<br />code-insiders<br />code-exploration | [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux) | ✅ | ✅ |
 | discord | [Discord](https://github.com/Javinator9889/Discord-PPA) 第三方仓库 | ✅ | |
 | firefox<br />firefox_beta<br />firefox_devedition<br />firefox_nightly<br />firefox_esr<br />mozillavpn | [Mozilla Firefox](https://support.mozilla.org/zh-CN/kb/install-firefox-linux) | ✅ | ✅ |
