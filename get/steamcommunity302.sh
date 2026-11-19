@@ -1,15 +1,15 @@
-
 PKG="steamcommunity-302"
 PAGE="https://www.dogfight360.com/blog/18682/"
 
+WEB_CONTENT=$(curl -s "$PAGE")
+
 # 从页面内联配置里取当前版本号
-VERSION=$(curl -sL "$PAGE" \
+VERSION=$(echo "$WEB_CONTENT" \
   | grep -oE 'version:[[:space:]]*"V[0-9.]+"' | head -n1 \
   | grep -oE '[0-9]+\.[0-9.]+')
-BASE="https://www.dogfight360.com/Usbeam/V${VERSION%%.*}"
 
-AMD64_URL="$BASE/Steamcommunity_302_${VERSION}_Linux_x64.deb"
-ARM64_URL="$BASE/Steamcommunity_302_${VERSION}_Linux_arm64.deb"
+AMD64_URL=$(echo "$WEB_CONTENT" | grep -o 'https://[^"]*x64\.deb' | head -n 1)
+ARM64_URL=$(echo "$WEB_CONTENT" | grep -o 'https://[^"]*arm64\.deb' | head -n 1)
 
 ./check_downloader.py "$PKG" "$VERSION" "$AMD64_URL" amd64
 ./check_downloader.py "$PKG" "$VERSION" "$ARM64_URL" arm64
